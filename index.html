@@ -3,48 +3,51 @@
   <head>
    
     <title>Mortal Kombat Hangman Game</title>
-   
-     <!-- links for reset CSS sheet -->
 
-     <!-- links for the styling CSS sheet -->
+    <!-- Links the reset CSS sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-     <!-- links for the javascript -->
-     //
-   <!--
- 
-    </head>
-    <body>
+    <!-- Links the styling CSS sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-            // <div 1>
-                
-          <img>
-          <h1 id="hangman">HANGMAN GAME</h1>
-          
-      </section>
+    <!-- Links the different fonts from Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet">
+	
+	<!-- Links the javascript -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
-      <div id2>
-          <img2>
-      </div>
+</head>
+  	<body>
 
-      <h>text here</h>
-      <div id=3>
-          <img3"width apx : 200px>
-      </div>
-      
+		<section id="mortalarea">
+			<img src="assets/images/mortalkombat1.png" style="width:300px;height:100px;">
+			<h1 id="hangman">HANGMAN GAME</h1>
+			<h4>Contains 30 Fighters!</h4>
+		</section>
 
-      <h>MORE TEXT ABOUT GAME WINS AND LOSSES </h>
-      <br>
-      <h>Word:  </h1>
-      
-      <h>Guesses remaining: </h>
-      
-      <h>Letters guessing: </h>
-      <br>
-      
-      <h> instructions </h>
-      <h1>scoreboard</h>
-      <img id=4">
+		<div id="mortalarea2">
+			<img id="mortalkombat" src="assets/images/mortalkombat.jpeg" style="width:500px;height:300px;padding-bottom:10px;">
+		</div>
 
-  </body>
-</html>  
-//-->
+		<h3>Choose your destiny!.... Press any Key</h3>
+		<div id="mortalarea3">
+			<img id="mortalarea3" src="assets/images/mk3.gif" style="width:200px;position: absolute;top: 0;right: 0%;">
+		</div>
+		
+
+		<h1>WINS: <span id="wins"></span></h1>
+		<h1>LOSSES: <span id="losses"></span></h1>
+		<br>
+		<h1>Word:   <span id="blankWordOnScreen"></span></h1>
+		
+		<h2>Guesses remaining: <span id="guesses">10</span></h2>
+		
+		<h2>Letters guessed: <span id="lettersGuessed"> </span></h2>
+		<br>
+		
+		<h1><span id="outcome">PRESS ANY KEY TO BEGIN</span></h1>
+		<h1><span id="outcomeAgain"></span></h1>
+		<img id="userWins" src="" style="height: 300px">
+
+	</body>
+</html>
