@@ -6,8 +6,9 @@ to find out who the mystery Mortal Kombat character is. There is
 You have 10 guesses per character, but your score is tailored for you.
 However, 30 wins in a row would be a "Flawless Victory" and make you
 grand champion saving your soul, good luck!
-"Choose your Destiny"
+"Choose your Destiny..."
 -press any key to start (18+ to enter)
+(((Has sound)))
 
 Click the following link to play:
 https://kayhon.github.io/Hangman-Game/
