@@ -47,7 +47,7 @@ var l = secretWord.length;
 var blankWord = [];
 var blankWordStr = "";
 var lettersGuessed = [];
-var guesses = 10;
+var guesses = 6;
 var win = 0;
 var gameOver = 0;
 
